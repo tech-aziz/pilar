@@ -86,12 +86,12 @@ class _MainScreenState extends State<MainScreen> {
 
     return SafeArea(
       child: Scaffold(
+
           backgroundColor: Colors.white,
           body: WillPopScope(
               onWillPop: () async {
                 if (await _controller.canGoBack()) {
                   _controller.goBack();
-
                   return false;
                 } else {
                   showExitPopup();

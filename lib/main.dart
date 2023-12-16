@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pilar/views/main_screen/main_screen.dart';
 import 'package:pilar/views/splash_screen/splash_screen.dart';
 
 void main() {
